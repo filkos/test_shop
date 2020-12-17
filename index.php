@@ -12,7 +12,7 @@ include("db.php");
 
 		echo "<ul>";
 		foreach ($rows as $row) {
-			echo "<li><a href='/category/?id=" . $row['id'] . "'>" . $row['title'] . "</a></li>";
+			echo "<li><a href='/category.php/?id=" . $row['id'] . "'>" . $row['title'] . "</a></li>";
 		}
 		echo "</ul>";
 	?>
